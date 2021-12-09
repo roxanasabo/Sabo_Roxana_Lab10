@@ -18,11 +18,6 @@ namespace Sabo_Roxana_Lab10
             InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-            throw new NotImplementedException();
-        }
-
         async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var slist = (ShopList)BindingContext;
